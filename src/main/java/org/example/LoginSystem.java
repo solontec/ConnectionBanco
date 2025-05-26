@@ -16,7 +16,7 @@ public class LoginSystem {
 
         System.out.println("bem vindo ao login");
 
-        System.out.println("Para entrar digite seu user");
+        System.out.println("Para entrar digite seu userr");
         String user = scanner.nextLine(); // guarda os dados que você digitou do user dentro dessa variavel
 
         System.out.println("Agora digite a sua senha para entrar");
