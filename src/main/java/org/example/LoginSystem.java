@@ -77,7 +77,7 @@ public class LoginSystem {
             if (preparedStatement != null) preparedStatement.close(); // Fecha a pergunta pronta????
             DatabaseConnection.closeConnection(connection);     // E fecha a porta do banco!
         } catch (SQLException e) {
-            System.out.println("Deu um problema para arrumar a bagunça"); // pq arrumar bagunça, nao entendi
+            System.out.println("Deu um problema para arrumar a bagunça"); // deu problema para fechar a porta
             e.printStackTrace();
         }
         return isAuthenticated; // devolve se conseguiu autenticar ou n
